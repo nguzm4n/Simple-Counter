@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 150px;
+    width: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    
+}
