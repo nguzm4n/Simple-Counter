@@ -1,0 +1,18 @@
+.icono {
+    height: 110px;
+    width: 80px;
+    background-color: #181717;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-left:2px solid hsl(0, 1%, 14%)  ;
+    border-right:2px solid hsl(0, 1%, 14%)  ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.reloj {
+    font-size: 50px;
+    color: white;
+}

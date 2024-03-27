@@ -2,6 +2,8 @@ import React from 'react'
 import './estilos/global.css'
 import Contador from './componentes/contador.jsx'
 import { useEffect, useState } from 'react'
+import Reloj from './componentes/Reloj.jsx'
+
 
 const App = () => {
 
@@ -20,6 +22,7 @@ return () => clearInterval(interval)
   return (
     <div>
         <div className='container '>
+        <Reloj />
         <Contador
         numero={Math.floor(numero/10000%10)}/>       
         <Contador
